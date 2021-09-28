@@ -1,9 +1,9 @@
 <?php
 
-	openlog('rewards', LOG_PID | LOG_PERROR, LOG_LOCAL0);
+	openlog('carrotstick', LOG_PID | LOG_PERROR, LOG_LOCAL0);
 
-	syslog(LOG_INFO, 'Starting Rewards...');
-	syslog(LOG_INFO, 'Finished starting Rewards.');
+	syslog(LOG_INFO, 'Starting Carrot Stick...');
+	syslog(LOG_INFO, 'Finished starting Carrot Stick.');
 
 	closelog();
 	
