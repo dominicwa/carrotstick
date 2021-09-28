@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  sticks:
+    build: ./containers/app/
+    restart: always
+    ports:
+      - "9004:80"
+    #environment:
+    #volumes:
+    #  - ./containers/app/src:/var/www/html
+    #  - packages:/var/www/html/vendor
+
+#volumes:
+#  packages:
