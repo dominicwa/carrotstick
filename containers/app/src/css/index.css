@@ -1,0 +1,61 @@
+*, h4 {
+	font-family: "Gill Sans", sans-serif;
+}
+
+.navbar {
+	background: orange;
+}
+
+.navbar-brand {
+}
+
+.navbar-brand img {
+	margin-right: 8px;
+	width: 22px;
+	vertical-align: -4px;
+}
+
+.close {
+	font-weight: 200;
+	font-size: 2.4em;
+}
+
+#user-cards .card {
+	min-width: 120px;
+	max-width: 200px;
+}
+
+#user-cards .card-body {
+	padding-bottom: 0;
+}
+
+#reward-cards .card {
+	min-width: 240px;
+	max-width: 400px;
+}
+
+#reward-cards .card-body {
+	padding-bottom: 0;
+}
+
+#reward-cards .card-footer {
+	/*background: white;
+	border-top-width: 0;*/
+}
+
+#reward-cards .progress {
+	height: 50px;
+}
+
+#reward-cards .progress-bar {
+	padding: 0 10px;
+}
+
+#reward-cards .reward-buttons {
+	margin-top: 10px;
+}
+
+#reward-cards .reward-buttons button {
+	margin: 0 4px 4px 0;
+	font-size: 1.0em;
+}

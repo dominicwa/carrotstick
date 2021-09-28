@@ -1,0 +1,7 @@
+*.sublime*
+*sftp-config*
+
+.DS_Store
+**/*.*.exclude
+
+**/users.json
